@@ -15,7 +15,7 @@ public class Quiz {//Text adventure mit Quiz
                         + "\n b) Go upstairs"
                         + "\n c) Wait");
 
-        if
+
 
     }
 

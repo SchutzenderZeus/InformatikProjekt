@@ -1,4 +1,4 @@
-public interface GameObject /*extends Paintable, Movable */{
+/*public interface GameObject /*extends Paintable, Movable *//*{
     double getWidth();
 
  
@@ -32,4 +32,4 @@ public interface GameObject /*extends Paintable, Movable */{
  
 
     boolean touches(GameObject that);
-}
+}*/

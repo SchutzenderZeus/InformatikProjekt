@@ -1,4 +1,4 @@
-public class Quiz {//Text adventure mit Quiz
+public class OutputMain {//Text adventure mit Quiz
 
 
     static int points = 3;

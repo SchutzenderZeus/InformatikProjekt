@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f86c8435-c9c0-40bc-9c04-d9145513b32c" name="Changes" comment="aa">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FullScreenWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/HelloWorld.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MovablePanel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SizedPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GameObject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GameObject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main {.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main {.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OutputMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +39,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Quiz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Quiz" />
+  <component name="RunManager" selected="Application.FullScreenWindow">
+    <configuration name="FullScreenWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FullScreenWindow" />
+      <module name="InformatikProjekt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="InformatikProjekt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="InformatikProjekt" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OutputMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OutputMain" />
       <module name="InformatikProjekt" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -44,7 +74,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Quiz" />
+        <item itemvalue="Application.FullScreenWindow" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.OutputMain" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688454968026</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="aa">
+      <created>1688645866782</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688645866782</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

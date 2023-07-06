@@ -6,5 +6,6 @@ class Main {
         chat.addSatz("42");
 
         System.out.println(chat.zufaellig());
+
     }
 }

@@ -1,6 +1,7 @@
 import javax.swing.*;
 import java.awt.*;
-import javax.swing.JFrame;
+
+
 public class FullScreenWindow extends JFrame {
     private Image backgroundImage;
     private Image objectImage;
@@ -34,7 +35,7 @@ public class FullScreenWindow extends JFrame {
     }
 
     public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> new FullScreenWindow());
+        SwingUtilities.invokeLater(FullScreenWindow::new);
         System.out.println("Gus");
     }
 }

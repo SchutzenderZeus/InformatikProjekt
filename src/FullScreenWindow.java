@@ -1,7 +1,8 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyListener;
 import javax.swing.JFrame;
-public class FullScreenWindow extends JFrame {
+public class FullScreenWindow extends JFrame{
     private Image backgroundImage;
     private Image objectImage;
 

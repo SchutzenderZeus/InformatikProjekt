@@ -1,4 +1,5 @@
 import java.awt.*;
+import javax.swing.*;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import javax.swing.JFrame;
@@ -22,30 +23,16 @@ public class HelloWorld extends JFrame implements KeyListener {
         // Objektbild laden
         objectImage = Toolkit.getDefaultToolkit().getImage("C:\\Users\\MaximilianJatzlau\\IdeaProjects\\InformatikProjekt\\src\\Bilder\\Zwerg.png");
 
-
         setVisible(true);
 
-
     }
-
-
-    public Chat1(){
-        textArea = new JTextArea();
-        textArea.addKeyListener(this);
-        add(textArea);
-        Chat1.setSize(300, 200);
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-
-        setVisible(true);
-    }
-
-
-
 
 
     private Image backgroundImage;
     private Image objectImage;
+
+    public static Image chat = Toolkit.getDefaultToolkit().getImage("C:\\Users\\MaximilianJatzlau\\IdeaProjects\\InformatikProjekt\\src\\Bilder\\White.png");
+
 
 
 
@@ -63,11 +50,22 @@ public class HelloWorld extends JFrame implements KeyListener {
     }
 
 
-
-
     public static void main(String[] args) {
-        new HelloWorld();
-        JFrame Chat1 = new HelloWorld();
+
+
+        JFrame Background1 = new HelloWorld();
+
+
+
+        JTextArea chat1 = new JTextArea(); // Umbenennung zu "Chat1"
+        JFrame frame2 = new JFrame("Chat 1"); // Umbenennung zu "Chat 1"
+        frame2.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame2.setLocation(1041,0);
+        frame2.setSize(300, 780);
+        frame2.setLocationRelativeTo(null);
+        frame2.add(chat1); // Hinzufügen des JTextArea "Chat1" zum JFrame "Chat 1"
+        frame2.setVisible(true);
+        frame2.imageUpdate(chat,0,0,0,0,0);
 
     }
 
